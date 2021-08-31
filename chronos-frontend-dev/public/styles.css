@@ -1,0 +1,66 @@
+#logo {
+  width: 150px;
+  height: 50px;
+}
+
+a {
+  color: #7384f0!important;
+}
+
+.col-7 {
+  width: 80%;
+}
+
+.container {
+  max-width: 95vw!important;
+}
+
+/* Button style override */
+.button.is-primary {
+  background-color: #ffdb4a!important;
+  color: #000!important;
+}
+
+.button.is-success {
+  background-color: #ffdb4a!important;
+  color: #000!important;
+}
+
+.is-info.input, .taginput .is-info.taginput-container.is-focusable, .is-info.textarea {
+  border-color: #ff9e4a!important;
+}
+
+.button.is-info {
+  background-color: #ff9e4a!important;
+  border-color: transparent;
+  color: #000!important;
+}
+
+.datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected {
+  background-color: #ff9e4a!important;
+  color: white;
+}
+
+/* Responsive design */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 95vw!important;
+  }
+  .container.is-fluid {
+    margin-left: 32px;
+    margin-right: 32px;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 90vw!important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 98vw;
+  }
+}
